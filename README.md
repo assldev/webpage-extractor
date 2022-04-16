@@ -2,9 +2,6 @@
 - To scrap a webpage
 
 # Installation
-- Install `docker`
-
-# Usage
 ## Using `docker`
 ```sh
 docker run -it -v $PWD/container:/app -w /app node /bin/bash
@@ -19,6 +16,12 @@ wget -P /downloads/ https://dl.google.com/linux/direct/google-chrome-stable_curr
 dpkg -i /downloads/google-chrome-stable_current_amd64.deb; apt-get -fy install
 ```
 
+# Usage
+## Using `docker`
+Within the `docker` container:
+```sh
+npm run start
+```
 
 # Acknowledgements
 [Tutorial: How To Scrape a Website Using Node.js and Puppeteer](https://www.digitalocean.com/community/tutorials/how-to-scrape-a-website-using-node-js-and-puppeteer#step-1-mdash-setting-up-the-web-scraper)
