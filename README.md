@@ -17,8 +17,6 @@ dpkg -i /downloads/google-chrome-stable_current_amd64.deb; apt-get -fy install
 ```
 
 # Usage
-## Using `docker`
-Within the `docker` container:
 ```sh
 npm run start
 ```
